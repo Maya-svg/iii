@@ -1,0 +1,32 @@
+Gun Yang (gyang04)
+Harnaljia Fenelon (hfenl01)
+
+Correctly Implemented Aspects:
+    readaline.c: This file reads and stores one line at a time from the 
+    provided file. It returns the number of bytes in that row to the 
+    main function.
+    
+    dissect.h: This file holds the interface for the dissect function. 
+    dissect.c : This implementation file seperates the digit bytes and the 
+    non-digit bytes in each row and stores them in seperate char pointers. 
+    This function returns the total count of the digit bytes in the row. 
+
+    restoration.c : This implementation file is the only access point the 
+    users have and calls all the other functions.  
+
+    conversion.h : This file holds the interface for the conversion function. 
+    conversion.c : This file changes all the digits from the P2 file into the
+    associated ASCII chars and prints out a properply formated "raw" P5 file.
+    Nothing is returned. 
+
+    Valgrind - we are also proud to have no memory leaks in our code. 
+
+Incorrectly Implemmented Aspects: 
+    Some parts of oour code could be more modular, ie our main function, 
+    but we are still pretty proud of it.
+
+Acknowlegements:
+    We went to four or five office hours and discussed our plans and code with TAs. 
+
+Hours Spent:
+    We spent 45+ hours on this assignment. 
